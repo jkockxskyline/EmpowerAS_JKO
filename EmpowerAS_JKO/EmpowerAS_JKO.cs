@@ -51,6 +51,8 @@ namespace EmpowerASJKO
         private void RunSafe(IEngine engine)
         {
             // TODO: Define code here
+
+            engine.GenerateInformation("Hello World");
         }
     }
 }
